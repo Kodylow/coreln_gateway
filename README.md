@@ -172,3 +172,5 @@ gateway:
 alias:
     alias cln-cli="lightning-cli --lightning-dir=./.lightning --signet && alias gw-cli='gateway-cli --data-dir ./.gateway --network signet --password "thereisnosecondbest"'
 ```
+
+Now you can run `just run` to run both the lightning node and the gatewayd daemon, or you can run `just lightning` or `just gateway` to run them individually. You can also run `just alias` to set the aliases for the cli tools.
