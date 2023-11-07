@@ -25,6 +25,7 @@
             nativeBuildInputs = [
               pkgs.clightning
               pkgs.just
+              pkgs.mprocs
             ];
             shellHook = mkShellHook;
           };
