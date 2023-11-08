@@ -1,6 +1,6 @@
 # Running a Gateway with Core Lightning
 
-We've made a single repo that contains all the binariesfor the gateway, the core lightning plugin, and the core lightning daemon. This makes it easy to run the gateway with core lightning. You can just clone the repo, run 1 install script, and run "just run" to have a core lightning node with fedimint gateway running on your machine.
+We've made a single repo that contains all the binariesfor the gateway, the core lightning plugin, and the core lightning daemon. This makes it easy to run the gateway with core lightning. You can just clone this repo, run "nix develop" then "just run" to have a core lightning node with fedimint gateway running on your machine.
 
 Otherwise if you want to set it up yourself step by step...
 
