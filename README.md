@@ -52,7 +52,7 @@ Clone Trustedcoin. (You'll need go installed, which you can install via nix with
 git clone https://github.com/nbd-wtf/trustedcoin
 ```
 
-To run it on mutinynet, you'll just have to change the signet esplora url in `main.go` to "mutinynet.com/api"
+To run it on mutinynet, you'll just have to change the signet esplora url in `main.go` to "mutinynet.com/api". Alternatively if you clone from `https://github.com/kodylow/trustedcoin`, Kody has that change already committed.
 
 ```diff
 		"signet": {
